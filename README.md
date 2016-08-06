@@ -5,7 +5,7 @@ AngularJS 1.5 ngSrc Directive
 
 See official documentation of 'API Reference / ng / directive components in ng / ngSrc' at https://docs.angularjs.org/api/ng/directive/ngSrc
 
-Using a binding expression with the image src attribute, results in a 404 error.
+#Using a binding expression with the image src attribute, results in a 404 error.
 
 For example, the script;
 

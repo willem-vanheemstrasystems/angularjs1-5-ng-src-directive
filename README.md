@@ -1,6 +1,8 @@
 # angularjs1-5-ng-src-directive
 AngularJS 1.5 ngSrc Directive
 
+Based on 'ng-src directive' at https://www.youtube.com/watch?v=YY_-BB_lZDI&index=4&list=PL6n9fhu94yhWKHkcL7RJmmXyxkuFB3KSl
+
 #Use of ng-src directive
 
 See official documentation of 'API Reference / ng / directive components in ng / ngSrc' at https://docs.angularjs.org/api/ng/directive/ngSrc

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="myModule">
+<head>
+    <meta charset="UTF-8">
+    <title>My Angular App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div data-ng-controller="myController">
+        <div>
+            Name: {{ country.name }}
+        </div>
+        <div>
+            Capital: {{ country.capital }}
+        </div>
+        <div>
+            <!--img src="img/usa-flag.png" style="height:82px; width:152px;"-->
+            <!--img src="{{ country.flag }}"
+                 alt="{{ country.name + 'Flag' }}"
+                 style="height:82px; width:152px;"-->
+            <img ng-src="{{ country.flag }}"
+                 alt="{{ country.name + 'Flag' }}"
+                 style="height:82px; width:152px;">
+        </div>
+    </div>
+</body>
+</html>
